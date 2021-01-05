@@ -75,10 +75,11 @@ async function getData() {
     units_measure = "°C"
   }
 
-  await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityId},${stateId}&units=${units}&lang=${lang}&appid=${apiKey}`)
+  await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityId},${stateId}&units=${units}&lang=${lang}&appid=${apiKey}`)
     .then((response) => response.json())
     .then((data) => (weather = data))
-    .catch((err) => console.log(err));;
+    .catch((err) => console.log(err));
+  ;
 
   cityName.innerHTML = weather.name;
   tempNow.innerHTML = `${weather.main.temp} ${units_measure}`;
