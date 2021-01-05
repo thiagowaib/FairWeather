@@ -90,7 +90,7 @@ async function getData() {
   }
   if (lang == "pt_br") {
     pressure.innerHTML = `Pressão:<br>${parseFloat((weather.main.pressure/1000).toFixed(2))}atm`;
-    wind.innerHTML = `Vel. Vento:<br>${weather.wind.speed}mps`;
+    wind.innerHTML = `Vel. Vento:<br>${weather.wind.speed}m/s`;
     umidity.innerHTML = `Umidade<br>${weather.main.humidity}%`;
   }
 
