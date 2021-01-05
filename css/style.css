@@ -103,7 +103,7 @@ button:hover{
 }
 
 .data_container{
-  opacity:1;
+  opacity:0;
   transition: .5s;
   margin: 50px auto;
   position: relative;
