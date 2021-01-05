@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>FairWeather</title>
+</head>
+
+<body>
+  <h2>welcome to</h2>
+  <h1>FairWeather</h1>
+  <div id="en" onclick="langEn()"></div>
+  <div id="pt-br" onclick="langPt()"></div>
+  <!--  -->
+  <br>
+  <!--  -->
+  <input id="city" type="text" placeholder="City..">
+  <input id="state" type="text" placeholder="State..">
+  <!--  -->
+  <br>
+  <!--  -->
+  <button id="clear" onclick="Clear()">Clear</button>
+  <button id="send" onclick="getData()">Send</button>
+  <div class="data_container">
+    <h3 id="cityName">Name</h3>
+    <h4 id="tempNow">TempNow</h4>
+    <h4 id="pressure">Pressure</h4>
+    <h4 id="wind">Wind</h4>
+    <h4 id="umidity">Umidity</h4>
+    <div id="sunny"></div>
+    <div id="cloudy"></div>
+    <div id="rainy"></div>
+    <div id="snowy"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

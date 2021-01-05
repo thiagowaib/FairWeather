@@ -1,0 +1,167 @@
+/* General */
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background: url(../img/Clouds.jpg) center;
+  background-color: rgb(0, 0, 0);
+}
+/* ====== */
+
+/* Header */
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+}
+
+h1:after{
+  opacity: 1;
+  display: block;
+  content: "";
+  width: 100px;
+  margin: 5px auto 0 auto;
+  border: 1px solid black;
+}
+
+#en{
+  opacity: 1;
+  display: inline-block;
+  width: 90px;
+  height: 20px;
+  background: url("../img/usa_flag.png") center;
+  border: 1px solid rgb(0, 0, 0);
+  margin-left: 575px;
+  margin-top: 10px;
+  transition: .2s;
+}
+#pt-br{
+  opacity: 0.6;
+  display: inline-block;
+  width: 90px;
+  height: 20px;
+  background: url("../img/br_flag.png") center;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 20px;
+  transition: .2s;
+}
+#en:hover, #pt-br:hover{
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+
+input{
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.274);
+  text-align: center;
+  margin-top: 25px;
+  background: black;
+  color: white;
+}
+input:focus{
+  border: 1px solid white;
+}
+#city{
+  width: 175px;
+  margin-left: 500px;
+  border-radius: 10px 0 0 10px;
+}
+#state{
+  width: 150px;
+  border-radius: 0 10px 10px 0;
+}
+
+button{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background:rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 15px 5px 15px;
+  margin-top: 10px;
+  transition: .2s;
+}
+button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 2px 3px rgba(255, 255, 255, 0.466);
+}
+#clear{
+  margin-left: 601px;
+  border-radius: 20px 0 0 20px;
+}
+#send{
+  border-radius: 0 20px 20px 0;
+}
+
+.data_container{
+  opacity:0;
+  transition: .5s;
+  margin: 50px auto;
+  position: relative;
+  background: rgba(255, 255, 255, 0);
+  width: 85%;
+  height: auto;
+}
+
+#cityName{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+#tempNow{
+  text-align: center;
+  font-size: 32px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+#pressure{
+  display: inline-block;
+  text-align: center;
+  margin-left: 395px;
+  margin-top: 25px;
+  font-size: 24px;
+}
+#wind{
+  display: inline-block;
+  text-align: center;
+  margin-left: 160px;
+  margin-top: 25px;
+  font-size: 24px;
+}
+#umidity{
+  text-align: center;
+  font-size: 22px;
+  margin-top: 25px;
+  padding-bottom: 45px;
+  font-weight: bold;
+}
+#sunny, #cloudy, #rainy, #snowy{
+  display: inline-block;
+  opacity: 0.25;
+  width: 50px;
+  height: 50px;
+  padding: 0 25px;
+}
+#sunny{
+  margin-left: 370px;
+  background: url(../img/sunny.svg) center no-repeat;
+}
+#cloudy{
+  background: url(../img/cloudy.svg) center no-repeat;
+}
+#rainy{
+  background: url(../img/rainy.svg) center no-repeat;
+}
+#snowy{
+  background: url(../img/snowy.svg) center no-repeat;
+}
+/* ====== */
