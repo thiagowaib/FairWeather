@@ -28,7 +28,11 @@ h1:after{
   margin: 5px auto 0 auto;
   border: 1px solid black;
 }
-
+.header_container{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
 #en{
   opacity: 1;
   display: inline-block;
@@ -36,7 +40,6 @@ h1:after{
   height: 20px;
   background: url("../img/usa_flag.png") center;
   border: 1px solid rgb(0, 0, 0);
-  margin-left: 575px;
   margin-top: 10px;
   transition: .2s;
 }
@@ -68,8 +71,7 @@ input:focus{
   border: 1px solid white;
 }
 #city{
-  width: 175px;
-  margin-left: 500px;
+  width: 152px;
   border-radius: 10px 0 0 10px;
 }
 #state{
@@ -94,7 +96,6 @@ button:hover{
   box-shadow: 0 2px 3px rgba(255, 255, 255, 0.466);
 }
 #clear{
-  margin-left: 601px;
   border-radius: 20px 0 0 20px;
 }
 #send{
@@ -102,7 +103,7 @@ button:hover{
 }
 
 .data_container{
-  opacity:0;
+  opacity:1;
   transition: .5s;
   margin: 50px auto;
   position: relative;
@@ -123,17 +124,21 @@ button:hover{
   margin-top: 15px;
   font-weight: bold;
 }
+.middle_sec{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
 #pressure{
   display: inline-block;
   text-align: center;
-  margin-left: 395px;
   margin-top: 25px;
   font-size: 24px;
 }
 #wind{
   display: inline-block;
   text-align: center;
-  margin-left: 160px;
+  margin-left: 200px;
   margin-top: 25px;
   font-size: 24px;
 }
@@ -142,7 +147,6 @@ button:hover{
   font-size: 22px;
   margin-top: 25px;
   padding-bottom: 45px;
-  font-weight: bold;
 }
 #sunny, #cloudy, #rainy, #snowy{
   display: inline-block;
@@ -151,8 +155,12 @@ button:hover{
   height: 50px;
   padding: 0 25px;
 }
+.data_container nav{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
 #sunny{
-  margin-left: 370px;
   background: url(../img/sunny.svg) center no-repeat;
 }
 #cloudy{

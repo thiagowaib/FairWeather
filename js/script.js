@@ -34,7 +34,6 @@ function langPt() {
   inputCity.placeholder = "Cidade..";
   inputState.placeholder = "Estado..";
   clearBtn.innerHTML = "Limpar";
-  clearBtn.style.marginLeft = "584px"
   sendBtn.innerHTML = "Enviar";
   lang = "pt_br";
 }
@@ -48,7 +47,6 @@ function langEn() {
   inputCity.placeholder = "City..";
   inputState.placeholder = "State..";
   clearBtn.innerHTML = "Clear";
-  clearBtn.style.marginLeft = "601px"
   sendBtn.innerHTML = "Send";
   lang = "en";
 }

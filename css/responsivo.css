@@ -1,0 +1,39 @@
+@media only screen and (max-width: 500px) {
+
+  input{
+    padding: 3px;
+    font-size: 14px;
+  }
+  #city{
+    width: 150px;
+  }
+  #state{
+    width: 150px;
+  }
+
+  #cityName{
+    font-size: 24px;
+  }
+  #tempNow{
+    font-size: 26px;
+  }
+  #pressure{
+    font-size: 22px;
+  }
+  #wind{
+    margin-left: 150px;
+    font-size: 22px;
+  }
+  #umidity{
+    margin-bottom: 50px;
+  }
+  #sunny, #cloudy, #rainy, #snowy{
+    padding: 10px;
+  }
+  .data_container nav{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
