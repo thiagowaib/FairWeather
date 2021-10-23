@@ -1,7 +1,7 @@
 # FairWeather
 
-<img src=""
-width="auto" height="200px" textAlign="center" marginLeft="auto" marginRight="auto">
+<img src="https://github.com/thiagowaib/FairWeather/blob/main/github/example.jpg"
+width="auto" height="200px" textAlign="center" marginLeft="auto" marginRight="auto" alt="Screenshot Exemplo">
 
 > O FairWeather (BomTempo em Portuguès) é uma página web de monitoramento do clima atual utilizando a API pública do [OpenWeatherMap](https://openweathermap.org/current "OpenWeatherMap").
 
